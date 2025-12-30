@@ -1,6 +1,5 @@
 package io.github.catizard.jbms.parser;
 
-import bms.model.osu.*;
 import io.github.catizard.jbms.parser.osu.Events;
 import io.github.catizard.jbms.parser.osu.HitObjects;
 import io.github.catizard.jbms.parser.osu.Osu;

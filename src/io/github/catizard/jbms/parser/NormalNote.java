@@ -1,0 +1,20 @@
+package io.github.catizard.jbms.parser;
+
+/**
+ * 通常ノート
+ * 
+ * @author exch
+ */
+public class NormalNote extends Note {
+	
+	public NormalNote(int wav) {
+		this.setWav(wav);
+	}
+	
+	public NormalNote(int wav, long start, long duration) {
+		this.setWav(wav);
+		this.setMicroStarttime(start);
+		this.setMicroDuration(duration);
+	}
+	
+}

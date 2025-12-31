@@ -326,4 +326,12 @@ public class TimeLine {
 	public void setScroll(double scroll) {
 		this.scroll = scroll;
 	}
+
+	public Note[] getNotes() {
+		return notes;
+	}
+
+	public Note[] getHiddennotes() {
+		return hiddennotes;
+	}
 }
